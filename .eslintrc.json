@@ -1,0 +1,8 @@
+{
+  "extends": [
+    // ... your other extends
+  ],
+  "parserOptions": {
+    "projectService": true
+  }
+} 

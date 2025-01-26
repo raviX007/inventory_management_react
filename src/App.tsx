@@ -32,7 +32,6 @@ function App() {
       });
   }, [items, search, categoryFilter, sortOrder]);
 
-
   const handleAddItem = async (data: Partial<InventoryItem>) => {
     await addItem(data);
     setIsAddDialogOpen(false);
